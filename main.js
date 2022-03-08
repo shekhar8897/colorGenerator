@@ -94,7 +94,7 @@ document.querySelector(".generator-button").addEventListener("click", () => {
 });
 
 document.addEventListener('keypress', (e) => {
-	if (e.code.toLowerCase() === "space") {
+	if (e.code.toLowerCase() === "enter") {
 		document.querySelector(".generator-button").click();
 	}
 })
